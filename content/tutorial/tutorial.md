@@ -1105,7 +1105,7 @@ In the Game component's `render` method, we can add the key as `<li key={move}>`
       );
     });
 ```
-
+The "step" parameter in the arrow function has no usage in particular it is to access index by second parameter(javascript syntax).
 **[View the full code at this point](https://codepen.io/gaearon/pen/PmmXRE?editors=0010)**
 
 Clicking any of the list item's buttons throws an error because the `jumpTo` method is undefined. Before we implement `jumpTo`, we'll add `stepNumber` to the Game component's state to indicate which step we're currently viewing.
